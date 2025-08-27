@@ -15,6 +15,7 @@
 - `完整工作流_dataset.ipynb`：数据集爬取、处理与标注流程
 - `完整工作流_model.ipynb`：模型爬取、处理与标注流程
 - `规范协议名称.xlsx`：开源协议名称标准化映射表
+- `规范数据格式.xlsx`：规范数据格式标准化映射表
 - `科学智能语料.xlsx`：最终生成的标准化语料库文件
 - `科学智能模型.xlsx`：最终生成的标准化模型库文件
 - `备份_中间流程结果`：项目中间结果备份文件夹
@@ -45,18 +46,14 @@ pip install openai datasets transformers
 
 # 进度条和其他工具库
 pip install tqdm lxml
-
-# 如需使用Chrome WebDriver（用于网页爬虫）
-# 请确保已安装Chrome浏览器，并下载对应版本的ChromeDriver
-# 下载地址：https://chromedriver.chromium.org/
 ```
 
 ### 4. WebDriver 配置
-对于网页爬虫功能，需要额外配置：
-```bash
-# 下载ChromeDriver并确保在PATH中，或者：
-pip install webdriver-manager  # 自动管理WebDriver版本
-```
+如需使用Chrome WebDriver（用于网页爬虫），请确保已安装Chrome浏览器，并下载对应版本的ChromeDriver
+
+下载地址：https://chromedriver.chromium.org/
+
+对于网页爬虫功能，需要额外下载并配置ChromeDriver，并确保在PATH中。
 
 ### 5. 配置deepseek API密钥
 由于本项目在翻译部分调用了deepseek的API，请前往 [deepseek官网](https://platform.deepseek.com/) 注册账号并获取API密钥。
