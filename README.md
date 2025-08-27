@@ -49,7 +49,7 @@ pip install tqdm lxml
 ```
 
 ### 4. WebDriver 配置
-如需使用Chrome WebDriver（用于网页爬虫），请确保已安装Chrome浏览器，并下载对应版本的ChromeDriver
+需使用Chrome WebDriver（用于网页爬虫），请确保已安装Chrome浏览器，并下载对应版本的ChromeDriver
 
 下载地址：https://chromedriver.chromium.org/
 
